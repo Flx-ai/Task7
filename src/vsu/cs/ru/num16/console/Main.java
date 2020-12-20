@@ -3,7 +3,6 @@ package vsu.cs.ru.num16.console;
 import java.util.Scanner;
 import vsu.cs.ru.num16.common.MaxLengthOfSubsequenceAndPositionOfFirstElement;
 
-
 public class Main {
 
     public static void main(String[] args) {
