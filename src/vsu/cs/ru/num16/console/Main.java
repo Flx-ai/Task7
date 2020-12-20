@@ -12,7 +12,7 @@ public class Main {
         int[] arrayOfIntegers = readArrayOfNumbers(numberOfIntegers, scanner);
 
         MaxLengthOfSubsequenceAndPositionOfFirstElement result = new MaxLengthOfSubsequenceAndPositionOfFirstElement(arrayOfIntegers);
-        printResult("Position of the first element of a monotonically increasing subsequence: ", result.getPositionOfFirstElement() + 1,
+        printResult("Position of the first element of a monotonically increasing subsequence: ", result.getPositionOfFirstElement(),
                 "The number of elements of such a subsequence: ", result.getMaxLength());
     }
 
