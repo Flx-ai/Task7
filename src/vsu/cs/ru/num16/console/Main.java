@@ -1,7 +1,8 @@
 package vsu.cs.ru.num16.console;
 
-import vsu.cs.ru.num16.common.MaxLengthOfSubsequenceAndPositionOfFirstElement;
 import java.util.Scanner;
+import vsu.cs.ru.num16.common.MaxLengthOfSubsequenceAndPositionOfFirstElement;
+
 
 public class Main {
 
@@ -33,5 +34,4 @@ public class Main {
     private static void printResult(String firstPhrase, int positionOfFirstElement, String secondPhrase, int maxLength) {
         System.out.printf(firstPhrase + positionOfFirstElement + "\n" + secondPhrase + maxLength);
     }
-
 }
