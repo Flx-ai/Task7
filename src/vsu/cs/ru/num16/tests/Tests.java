@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import vsu.cs.ru.num16.common.MaxLengthOfSubsequenceAndPositionOfFirstElement;
 
-class Tests {
+public class Tests {
 
     @Test
     void firstTestGetPositionOfFirstElement() {
-        int[] array = {2, 3, 1, 2, 3, 1, 2 , 3};
+        int[] array = {2, 3, 1, 2, 3, 1, 2, 3};
         MaxLengthOfSubsequenceAndPositionOfFirstElement result = new MaxLengthOfSubsequenceAndPositionOfFirstElement(array);
         int actualResult = result.getPositionOfFirstElement();
         Assertions.assertEquals(6, actualResult);
@@ -16,7 +16,7 @@ class Tests {
 
     @Test
     void firstTestGetMaxLength() {
-        int[] array = {2, 3, 1, 2, 3, 1, 2 , 3};
+        int[] array = {2, 3, 1, 2, 3, 1, 2, 3};
         MaxLengthOfSubsequenceAndPositionOfFirstElement result = new MaxLengthOfSubsequenceAndPositionOfFirstElement(array);
         int actualResult = result.getMaxLength();
         Assertions.assertEquals(3, actualResult);
@@ -24,7 +24,7 @@ class Tests {
 
     @Test
     void secondTestGetPositionOfFirstElement() {
-        int[] array = {1, 4, 7, -1, 2, 5, 8 , 1};
+        int[] array = {1, 4, 7, -1, 2, 5, 8, 1};
         MaxLengthOfSubsequenceAndPositionOfFirstElement result = new MaxLengthOfSubsequenceAndPositionOfFirstElement(array);
         int actualResult = result.getPositionOfFirstElement();
         Assertions.assertEquals(4, actualResult);
@@ -32,7 +32,7 @@ class Tests {
 
     @Test
     void secondTestGetMaxLength() {
-        int[] array = {1, 4, 7, -1, 2, 5, 8 , 1};
+        int[] array = {1, 4, 7, -1, 2, 5, 8, 1};
         MaxLengthOfSubsequenceAndPositionOfFirstElement result = new MaxLengthOfSubsequenceAndPositionOfFirstElement(array);
         int actualResult = result.getMaxLength();
         Assertions.assertEquals(4, actualResult);
